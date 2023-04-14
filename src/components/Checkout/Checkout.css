@@ -1,0 +1,62 @@
+/* checkout.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.order-type {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.customer-info {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.checkoutOrder {
+  margin-top: 2rem;
+}
+
+table {
+  margin-top: 2rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+}
+
+#back-btn {
+  margin-right: 1rem;
+}
+
+#checkout-btn {
+  background-color: #4caf50;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+#checkout-btn:hover {
+  background-color: #3e8e41;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}

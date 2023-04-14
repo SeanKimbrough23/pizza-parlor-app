@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 70px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-title {
+  font-size: 2em;
+}
+header {
+  background-color: #f00404;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  border-bottom: 4px solid #f30505;
+  animation: header-flash 2s ease-in-out infinite;
+}
+header {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  font-family: cursive;
+  color: rgba(245, 245, 245, 0.959);
+}
+@keyframes header-flash {
+  0% {
+    color: rgb(16, 15, 15);
+  }
+  50% {
+    color: rgb(172, 118, 3);
+  }
+  100% {
+    color: rgb(249, 246, 246);
+  }
+}
